@@ -4,13 +4,13 @@ terraform {
       source  = "hashicorp/aws"
       version = ">= 5.23"
     }
-  }
-  backend "s3" {
-    bucket         = "gs-iac-rm551050"
-    key            = "terraform.tfstate"
-    dynamodb_table = "gs-iac-rm551050"
-    region         = "us-east-1"
-  }
+  # }
+  # backend "s3" {
+  #   bucket         = "gs-iac-rm551050"
+  #   key            = "terraform.tfstate"
+  #   dynamodb_table = "gs-iac-rm551050"
+  #   region         = "us-east-1"
+  # }
 }
 
 provider "aws" {
