@@ -1,6 +1,6 @@
 # Grupo de Segurança que permitir o tráfego HTTP e SSH
-resource "aws_security_group" "allow_http" {
-  name        = "allow_http"
+resource "aws_security_group" "picoca" {
+  name        = "picoca"
   description = "Allow HTTP inbound traffic"
 
   ingress {
