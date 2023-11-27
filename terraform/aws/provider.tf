@@ -11,6 +11,6 @@ terraform {
   #   dynamodb_table = "gs-iac-rm551050"
   #   region         = "us-east-1"
   # }
+  }
 }
-
 
